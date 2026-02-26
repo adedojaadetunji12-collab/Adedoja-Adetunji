@@ -1,0 +1,68 @@
+<!-- Noise Overlay – unchanged -->
+
+<!-- Loader – unchanged -->
+
+<!-- Navigation – unchanged -->
+
+<!-- Hero Section -->
+<header class="relative h-screen w-full overflow-hidden flex items-center justify-center">
+    <!-- Background Image with Parallax -->
+    <div class="absolute inset-0 z-0">
+        <img src="images/hero.jpg" 
+             alt="Hero Background" 
+             class="w-full h-full object-cover opacity-60 scale-110"
+             id="hero-bg">
+        <div class="absolute inset-0 bg-gradient-to-t from-[#0f0f0f] via-transparent to-black/40"></div>
+    </div>
+    <!-- Hero Content – unchanged -->
+</header>
+
+<!-- Marquee Strip – unchanged -->
+
+<!-- Collection Grid -->
+<section id="collection" class="py-20 px-4 md:px-10 bg-[#0f0f0f]">
+    <div class="max-w-7xl mx-auto">
+        <!-- Header – unchanged -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Item 1: Black Flare -->
+            <div class="group relative cursor-pointer" onclick="openProduct('Black Classic Flare', '₦25,000', 'images/black-flare.jpg')">
+                <div class="img-container aspect-[3/4] bg-gray-900 relative overflow-hidden border border-gray-800">
+                    <img src="images/black-flare.jpg" alt="Black Flare Jeans" class="w-full h-full object-cover">
+                    <!-- Hover – unchanged -->
+                </div>
+                <!-- Details – unchanged -->
+            </div>
+
+            <!-- Item 2: Grey/Black Wide Leg -->
+            <div class="group relative cursor-pointer" onclick="openProduct('Shadow Wide Leg', '₦28,000', 'images/shadow-wide.jpg')">
+                <div class="img-container aspect-[3/4] bg-gray-900 relative overflow-hidden border border-gray-800">
+                    <img src="images/shadow-wide.jpg" alt="Shadow Wide Leg" class="w-full h-full object-cover">
+                    <!-- Hover – unchanged -->
+                </div>
+                <!-- Details – unchanged -->
+            </div>
+
+            <!-- Repeat for other items, updating src to images/filename.jpg -->
+            <!-- Item 3: images/midnight-pearl.jpg -->
+            <!-- Item 4: images/ice-blue.jpg -->
+            <!-- Item 5: images/stardust-flare.jpg -->
+            <!-- Video/Ad: Use images/hero.jpg as poster, onclick to images/it-girl.mov -->
+
+        </div>
+    </div>
+</section>
+
+<!-- Features Section – unchanged -->
+
+<!-- TikTok Section – unchanged -->
+
+<!-- Contact / Footer – Update Instagram href to your real link -->
+
+<!-- Product Modal – unchanged -->
+
+<!-- Cart Drawer – unchanged -->
+
+<script>
+    // All JS – unchanged, but test cart/addToCart
+</script>
